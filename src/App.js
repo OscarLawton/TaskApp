@@ -1,6 +1,6 @@
 //import React from 'react'
 import Header from './components/Header'
-import Tasks from './components/Task'
+import Tasks from './components/Tasks'
 import { useState } from 'react'
 
 function App() {
@@ -8,23 +8,32 @@ function App() {
       {
         id: 1,
         text: 'wash clothes',
+        day: 'Fri 9th June at 2:30 pm',
         reminder: false
       },
       {
         id: 2,
-        text: 'wash clothes',
+        text: 'Collect money',
+        day: 'Fri 9th June at 2:30 pm',
         reminder: true
       },
       {
         id: 3,
-        text: 'wash clothes',
+        text: 'Take out bins',
+        day: 'Fri 9th June at 2:30 pm',
         reminder: false
       }
-    ])
+  ])
+  
+  // Delete Task
+  const deleteTask = (id) => {
+    setTasks(tasks.filter((task) => task.id !== id))
+  }
+
   return (
     <div className="container">
       <Header />
-      <Tasks tasks={tasks}/>
+      <Tasks tasks={tasks} onDelete={deleteTask}/>
     </div>
   );
 } 
