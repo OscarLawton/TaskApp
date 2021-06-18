@@ -16,12 +16,12 @@
       "id": 3,
       "text": "Take out bins",
       "day": "Fri 9th June at 2: 30 pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Be more mindful of mine and other's feelings ",
       "day": "now and from now on",
-      "reminder": false,
+      "reminder": true,
       "id": 4
     },
     {
