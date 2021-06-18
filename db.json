@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "wash clothes",
+      "day": "Fri 9th June at 2: 30 pm",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "text": "Collect money",
+      "day": "Fri 9th June at 2: 30 pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Take out bins",
+      "day": "Fri 9th June at 2: 30 pm",
+      "reminder": false
+    },
+    {
+      "text": "Be more mindful of mine and other's feelings ",
+      "day": "now and from now on",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Be Patient ",
+      "day": "Now and from now on ",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "Be generous ",
+      "day": "Now and from now on",
+      "reminder": true,
+      "id": 6
+    }
+  ]
+}
