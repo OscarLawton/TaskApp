@@ -10,18 +10,18 @@
       "id": 2,
       "text": "Collect money",
       "day": "Fri 9th June at 2: 30 pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 3,
       "text": "Take out bins",
       "day": "Fri 9th June at 2: 30 pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "text": "Be more mindful of mine and other's feelings ",
       "day": "now and from now on",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     },
     {
@@ -33,7 +33,7 @@
     {
       "text": "Be generous ",
       "day": "Now and from now on",
-      "reminder": true,
+      "reminder": false,
       "id": 6
     }
   ]
